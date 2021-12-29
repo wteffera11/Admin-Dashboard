@@ -1,0 +1,99 @@
+@import "../../../global.module";
+@mixin inputMixin {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  outline: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background-color: #fcfdfe;
+  outline-color: #fcfdfe;
+}
+@mixin inputContainer {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #4b506d;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: inherit;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  width: 380px;
+  height: 582px;
+  background-color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  padding-inline: 2rem;
+
+  h2 {
+    margin-top: 1rem;
+    color: #a4a6b3;
+  }
+}
+// .logo {
+//   img {
+//     cursor: pointer;
+//   }
+// }
+.desc {
+  margin-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #252733;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
+
+.email {
+  @include inputContainer();
+  h4 {
+    margin-bottom: 4px;
+  }
+}
+.password {
+  @include inputContainer();
+}
+.forgotPassword {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+
+  p {
+    font-size: 10px;
+    cursor: pointer;
+  }
+}
+
+input {
+  @include inputMixin();
+}
+
+button {
+  @include btn(#3751ff, white);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.signUp {
+  cursor: pointer;
+  color: blue;
+}

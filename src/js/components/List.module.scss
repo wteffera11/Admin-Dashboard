@@ -1,0 +1,16 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.item {
+  padding: 5px 10px;
+  margin: 5px 0;
+  background-color: lightgreen;
+
+  &:hover {
+    cursor: pointer;
+    background-color: red;
+    scale: 1.2;
+  }
+}

@@ -1,0 +1,22 @@
+.container {
+  width: 258px;
+  height: 134px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #dfe0eb;
+  color: #9fa2b4;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.title {
+  font-size: 19px;
+  font-weight: 700;
+}
+.value {
+  font-size: 40px;
+  font-weight: bold;
+}
