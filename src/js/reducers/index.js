@@ -15,5 +15,6 @@ const rootReducer = (state = initialState, action) => {
   return state;
 };
 console.log("Small changes made to the index reducers");
+console.log("Hello");
 
 export default rootReducer;
