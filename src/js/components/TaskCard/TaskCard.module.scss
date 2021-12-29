@@ -1,0 +1,87 @@
+.container {
+  width: 546px;
+  height: 336px;
+  background-color: white;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  margin-block: 3rem;
+}
+
+.titleContainer {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-inline: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-size: 19px;
+  font-weight: bold;
+  color: #252733;
+}
+.details {
+  color: #3751ff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.group {
+  padding-inline: 2rem;
+  font-size: 12px;
+}
+.groupkey {
+  color: #9fa2b4;
+}
+.groupValue {
+  color: #4b506d;
+}
+.list {
+  margin-top: 2rem;
+  list-style-type: disc;
+}
+.item {
+  border-bottom: 1px solid #dfe0eb;
+  padding-block: 1.2rem;
+  padding-inline: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-inline: 2rem;
+  border-bottom: 1px solid #dfe0eb;
+}
+.input {
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.taskAdd {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  background-color: #f0f1f7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #252733;
+}
+.value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #9fa2b4;
+}

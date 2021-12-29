@@ -1,0 +1,23 @@
+.container {
+  flex: 8;
+  height: 100%;
+  width: 100%;
+  background-color: #f7f8fc;
+  padding-inline: 2rem;
+  overflow-y: scroll;
+}
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chartContainer {
+  width: 100%;
+  height: 100%;
+  margin-block: 2rem;
+}
+.largeCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

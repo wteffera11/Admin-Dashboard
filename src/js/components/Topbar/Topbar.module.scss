@@ -1,0 +1,25 @@
+.container {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #252733;
+}
+.leftContainer {
+  display: flex;
+  align-items: center;
+}
+.icon,
+.verticalSeparator {
+  color: #c5c7cd;
+  margin-right: 1.2rem;
+}
+.userName {
+  margin-right: 1rem;
+}
